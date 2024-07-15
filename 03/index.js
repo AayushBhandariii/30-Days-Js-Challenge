@@ -142,7 +142,7 @@ ACTIVITY FIVE : Combining Condition
 let year = 2023
 let leapYear;
 
-if( year % 4 === 0 && year !== 100 ) {
+if( year % 4 === 0 && year % 100 !== 0 || year % 400 === 0 ) {
   leapYear = "Yes"
 }else {
   leapYear = "No"
