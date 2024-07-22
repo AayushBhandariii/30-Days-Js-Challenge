@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10 | Event Handling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="activities">
+
+    <!-- ? ACTIVITY ONE SECTION -->
+    <div id="activity-one">
+    
+        <h1>ACTIVITY ONE | Basic Event Handling</h1>
+
+    <!-- ? TASK ONE  -->
+    <div id="task-one">
+        <p class="task-one-paragraph">Click on the button to change the text content of paragraph</p>
+        <button class="task-one-button">Click to change</button>
+    </div>
+
+    <!-- ? TASK TWO -->
+    <div id="task-two">
+        <img 
+        src="https://th.bing.com/th/id/R.3d88a927f8529dcba03364b09d98adbe?rik=JYmQaMVSULpYQg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-images.jpg&ehk=BNPsuSOUR7ATZ3EpRwxx1xFl7LUbO3tYlu1wFLCBrCE%3d&risl=&pid=ImgRaw&r=0" 
+        alt="img"
+        class="task-two-img"
+        />
+    </div>
+
+    </div>
+
+    <!-- ? ACTIVITY TWO SECTION -->
+
+    <div id="activity-two">
+
+        <h1>ACTIVITY TWO | Mouse Events</h1>
+        
+        <!-- ? TASK THREE & FOUR -->
+         <div class="activity-two-element">Mouseover here to see the change !</div>
+    </div>
+
+    <!-- ? ACTIVITY THREE SECTION -->
+
+    <div id="activity-three">
+    
+        <h1>ACTIVITY THREE | Keyboard Events</h1>
+
+        <!-- ? TASK FIVE -->
+        <label for="">Keydown : </label>
+        <input type="text" placeholder="Keydown here to see the magic" class="task-five-keydown_input">
+        
+        <!-- ? TASK SIX -->
+        <label for="">Keyup : </label>
+        <input type="text" placeholder="Keyup here to see the magic" class="task-six-keyup_input">
+        <p id="task-six-paragraph "></p>
+    </div>
+
+    <div id="activity-four">
+
+        <h1>ACTIVITY FOUR | FORM EVENTS</h1>
+    
+        <!-- ? TASK SEVEN -->
+        <form id="form">
+            <label>Enter any value : </label>
+            <input type="text" name="Value" id="userInput">
+            <button type="submit" class="sumbitButton">Sumbit</button>
+        </form>
+    
+        <!-- ? TASK EIGHT -->
+         <h4>Select Any user theme & see the magic in paragraph</h4>
+         <select id="userSelection">
+            <option value="dark mode">Dark Mode</option>
+            <option value="light mode">Light Mode</option>
+            <option value="cyber mode">Cyberpunk Mode</option>
+         </select>
+         <p id="themeStatus"></p>
+        </div>
+
+        <!-- ? ACTIVITY NINE -->
+
+        <div id="activity-nine">
+            <h1>ACTIVITY NINE | Event Delegation</h1>
+            
+            <!-- ? TASK NINE -->
+            <ul id="todo_list">
+                <li class="todo-items">Item 1</li>
+                <li class="todo-items">Item 2</li>
+                <li class="todo-items">Item 3</li>
+            </ul>
+
+            <br>
+            <!-- ? TASK TEN -->
+
+            <ul id="task-ten-items-container"></ul>
+
+        </div>
+
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
